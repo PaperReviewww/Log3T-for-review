@@ -28,4 +28,7 @@ Running log3t with docker will be slow because we don't set up to use gpu, and i
 1. docker pull docker.io/gaiusyu/log3t:v2
 2. docker run -it --gpus '"device=0"' --name log3t gaiusyu/log3t:v2
 
+###Benchmark dataset we used
 
+1. Code of existing log parsers: http://logpai.com/
+2. Original dataset: https://zenodo.org/record/1144100
